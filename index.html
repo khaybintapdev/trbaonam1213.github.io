@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Khầy Ba Tập Dev</title>
+  <meta name="description" content="Web profile Khầy Ba — Developer">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">BN</div>
+        <div>
+          <h1>Trần Nam</h1>
+          <p class="role">Khầy Ba Tập Dev</p>
+        </div>
+      </div>
+      <button id="themeToggle" class="btn-theme" aria-label="Chuyển giao diện">🌙</button>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <section class="card about">
+      <h2>Giới thiệu</h2>
+      <p>Xin chào — tôi là Họ Tên, một developer thích xây dựng giao diện web đẹp, hiệu năng tốt và dễ dùng. Tôi chuyên về HTML, CSS, JavaScript và React.</p>
+      <div class="contact">
+        <a href="mailto:trannamnbn1213@gmail.com" class="chip">✉ trannamnbn1213@gmail.com</a>
+        <a href="tel:+0378151211" class="chip">📞 +84 78 151 211</a>
+        <a href="#" class="chip">📍 Ho Chi Minh City, Việt Nam</a>
+      </div>
+
+      <div class="socials">
+        <a href="#" aria-label="https://github.com/DevBin-Js">GitHub</a> •
+        <a href="#" aria-label="https://www.facebook.com/bincon1213/">Facebook</a> •
+        <a href="#" aria-label="https://discord.com/nTPh3tJuCX">Discord</a>
+      </div>
+
+      <p><a href="#" class="btn-primary" id="xxx">chưa update</a></p>
+    </section>
+
+    <section class="card skills">
+      <h2>Kỹ năng</h2>
+      <ul class="skill-list">
+        <li>HTML / JavaScript / PYTHON</li>
+        <li> Design Discord, AI Design Logo, banner</li>
+        <li> Fivem Dev, Fix/Scan ERROR, Viethoa source</li>
+      </ul>
+    </section>
+
+    <section class="card experience">
+      <h2>Kinh nghiệm</h2>
+      <article class="job">
+        <h3>Thầy ba tập dev</h3>
+        <p class="meta">2022 — Hiện tại</p>
+        <ul>
+          <li>Phát triển bot system discord.</li>
+          <li>Xây dựng design discord.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Web Developer</h3>
+        <p class="meta">2019 — 2022</p>
+        <ul>
+          <li>Tạo giao diện responsive, tích hợp API REST.</li>
+          <li>Tối ưu SEO và accessibility.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card projects">
+      <h2>Dự án tiêu biểu</h2>
+      <ul class="projects-list">
+        <li>
+          <a href="#" class="project-link">Project 1</a>
+          <p class="project-desc">Server tiêu biểu nhất BÉO CITY trên nền tảng fivem số lượng chơi cùng lúc 80 người</p>
+        </li>
+        <li>
+          <a href="#" class="project-link">Project 2</a>
+          <p class="project-desc">Phát triển cộng đồng discord PLAY TOGETHER (MrSpadeHome) có tổng cộng 1000+ người tham gia</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card contact-form">
+      <h2>Liên hệ</h2>
+      <p>Nếu bạn muốn hợp tác hoặc hỏi thêm, gửi tin nhắn cho tôi qua discord:</p>
+      <form id="contactForm">
+        <label>
+          Tên
+          <input name="name" type="text" required>
+        </label>
+        <label>
+          Email
+          <input name="email" type="email" required>
+        </label>
+        <label>
+          Tin nhắn
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn-primary">Gửi</button>
+          <button type="reset" class="btn-ghost">Xóa</button>
+        </div>
+        <p class="form-note" id="formNote" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Trần Nam — Khầy Ba Tập Dev</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
